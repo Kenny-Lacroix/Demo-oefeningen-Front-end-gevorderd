@@ -21,7 +21,7 @@ const createTableElements = () => {
             <td>${element.Studypoints}</td>
             <td>${element.EstimatedHours}</td>
             <td id="time${i}"><input id="inp${i}" type="number" value="${element.TimeSpent}" disabled></input></td>
-            <td> <button id="btn${i}">+</button> </td>
+            <td> <button id="btn${i}" class="btn btn-danger">+</button> </td>
         </tr>`;
         i++;
     });
