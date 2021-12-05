@@ -5,6 +5,7 @@ const PATH = require('path');
 
 // APP.use(X.static(PATH.join(__dirname, '../public')));
 APP.use('/studypointCalculator', X.static(PATH.join(__dirname, '../public/studypointCounter')));
+APP.use('/car', X.static(PATH.join(__dirname, '../public/carClass')));
 
 APP.listen(PORT, () => {
     console.log(`Webshop running at http://localhost:${PORT}`)
